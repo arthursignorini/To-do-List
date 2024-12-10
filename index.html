@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Contato</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Adicionar tarefa</h2>
+        <form action="#" method="post">
+            <label for="tarefa">Tarefa:</label>
+            <input type="text" id="tarefa" name="tarefa" required>
+
+            <label for="data">Data:</label>
+            <input type="date" id="data" name="data" required>
+
+            <label for="tipo" style="margin-top: 10px;">Tipo:</label>
+            <div id="tipo">
+                <label>
+                    <input type="checkbox" id="faculdade" name="tipo" value="Faculdade">
+                    Faculdade
+                </label>
+                <label>
+                    <input type="checkbox" id="trabalho" name="tipo" value="Trabalho">
+                    Trabalho
+                </label>
+                <label>
+                    <input type="checkbox" id="vida-pessoal" name="tipo" value="Vida Pessoal">
+                    Vida Pessoal
+                </label>
+            </div>
+
+
+            <button type="submit">Enviar</button>
+            <button><a href="tarefas.html">Ver tarefas criadas</a></button>
+        </form>
+    </div>
+
+
+    <script src="scritp.js"></script>
+</body>
+
+</html>
